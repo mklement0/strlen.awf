@@ -131,7 +131,7 @@ EOF
 				<key>subtext</key>
 				<string>Type or paste text.</string>
 				<key>title</key>
-				<string>Calculate string length, both in characters and bytes.</string>
+				<string>Count characters and bytes in a string</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>

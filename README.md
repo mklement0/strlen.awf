@@ -5,7 +5,7 @@
 
 **Contents**
 
-- [strlen.awf &mdash; Alfred 2 workflow for measuring string length](#strlenawf-&mdash-alfred-2-workflow-for-measuring-string-length)
+- [strlen.awf: an Alfred 2 workflow for measuring string length](#strlenawf-an-alfred-2-workflow-for-measuring-string-length)
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Installation from the npm registry](#installation-from-the-npm-registry)
@@ -20,7 +20,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# strlen.awf &mdash; an Alfred 2 workflow for measuring string length
+# strlen.awf: an Alfred 2 workflow for measuring string length
 
 **strlen.awf** is a simple [Alfred 2](http://www.alfredapp.com) [workflow](http://www.alfredapp.com/workflows) for counting the 
 number of characters and bytes in a string (piece of text):
@@ -118,6 +118,10 @@ This project gratefully depends on the following open-source components, accordi
 # Changelog
 
 <!-- NOTE: An entry template for a new version is automatically added each time `make version` is called. Fill in changes afterwards. -->
+
+* **[v0.1.1](https://github.com/mklement0/strlen.awf/compare/v0.1.0...v0.1.1)** (2015-11-08):
+  * [doc] Wording of placeholder title for keyword `sl` improved. 
+  * [doc] `README.md` fix
 
 * **v0.1.0** (2015-11-08):
   * Initial release.
