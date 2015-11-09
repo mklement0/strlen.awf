@@ -1,8 +1,4 @@
-<!-- Remove, once published/released. -->
-![project status - not ready for release](https://img.shields.io/badge/status-not_ready_for_release-red.svg)
-
-<!-- Uncomment first link, once published to the npm registry. -->
-<!-- [![npm version](https://img.shields.io/npm/v/strlen.awf.svg)](https://npmjs.com/package/strlen.awf) --> [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mklement0/strlen.awf/blob/master/LICENSE.md)
+[![npm version](https://img.shields.io/npm/v/strlen.awf.svg)](https://npmjs.com/package/strlen.awf) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mklement0/strlen.awf/blob/master/LICENSE.md)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -24,9 +20,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# strlen.awf &mdash; Alfred 2 workflow for measuring string length
+# strlen.awf &mdash; an Alfred 2 workflow for measuring string length
 
-**strlen.awf** is a simple [Alfred 2](http://alfredapp.com) workflow for counting the 
+**strlen.awf** is a simple [Alfred 2](http://www.alfredapp.com) [workflow](http://www.alfredapp.com/workflows) for counting the 
 number of characters and bytes in a string (piece of text):
 
 It comes with a hotkey (global keyboard shortcut) that operates on the
@@ -67,7 +63,7 @@ With [Node.js](http://nodejs.org/) installed, install [the package](https://www.
 
 ## Manual installation
 
-* **Click [here](https://github.com/mklement0/strlen.awf/blob/stable/archive/strlen.awf.alfredworkflow?raw=true)** to download the installer.
+* **Click [here](https://github.com/mklement0/strlen.awf/blob/stable/archive/net.same2u.strlen.awf.alfredworkflow?raw=true)** to download the installer.
 * Open the downloaded file: Alfred 2 will prompt you to import the workflow - select a category (optional), and confirm.
 * After importing, proceed with [customization](#customization) below.
 
@@ -121,9 +117,7 @@ This project gratefully depends on the following open-source components, accordi
 
 # Changelog
 
-Versioning complies with [semantic versioning (semver)](http://semver.org/).
-
 <!-- NOTE: An entry template for a new version is automatically added each time `make version` is called. Fill in changes afterwards. -->
 
-* **v0.1.0-0** (2015-11-08):
-  * Preparing for initial release.
+* **v0.1.0** (2015-11-08):
+  * Initial release.

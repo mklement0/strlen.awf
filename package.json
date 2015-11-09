@@ -2,7 +2,7 @@
   "name": "strlen.awf",
   "description": "An Alfred workflow that counts the number of characters and bytes in a string.",
   "private": false,
-  "version": "0.1.0-0",
+  "version": "0.1.0",
   "os": [
     "darwin"
   ],
