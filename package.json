@@ -1,0 +1,47 @@
+{
+  "name": "strlen.awf",
+  "description": "An Alfred workflow that counts the number of characters and bytes in a string.",
+  "private": false,
+  "version": "0.1.0-0",
+  "os": [
+    "darwin"
+  ],
+  "preferGlobal": true,
+  "homepage": "https://github.com/mklement0/strlen.awf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mklement0/strlen.awf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mklement0/strlen.awf/issues"
+  },
+  "scripts": {
+    "test": "make test",
+    "postinstall": "./bin/installAwf",
+    "postuninstall": "./bin/installAwf -u"
+  },
+  "keywords": [
+    "osx",
+    "awf",
+    "alfred",
+    "workflow",
+    "text",
+    "count",
+    "length"
+  ],
+  "author": "Michael Klement <mklement0@gmail.com> (http://same2u.net)",
+  "license": "MIT",
+  "net_same2u": {
+    "make_pkg": {
+      "tocOn": true,
+      "tocTitle": "**Contents**"
+    }
+  },
+  "devDependencies": {
+    "doctoc": "^0.13.0",
+    "json": "^9.0.3",
+    "replace": "^0.3.0",
+    "semver": "^4.2.0",
+    "urchin": "^0.0.5"
+  }
+}
