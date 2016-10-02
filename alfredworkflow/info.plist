@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -25,6 +27,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>PASTE into frontmost app (via clipboard)</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>C6B9B25E-20F3-44E3-856C-747B7319B9BA</key>
@@ -36,6 +40,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -56,17 +62,21 @@
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>27A1BA95-8EE9-4FFF-AFA3-87175EBA9952</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -128,6 +138,10 @@ cat &lt;&lt;EOF
 &lt;/items&gt;
 EOF
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Type or paste text.</string>
 				<key>title</key>
@@ -142,7 +156,7 @@ EOF
 			<key>uid</key>
 			<string>8D8F7A4D-06DA-473A-9142-D2E4192EE31A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -169,7 +183,7 @@ EOF
 			<key>uid</key>
 			<string>C6B9B25E-20F3-44E3-856C-747B7319B9BA</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -178,40 +192,54 @@ EOF
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>B1D7CAA5-A566-412F-BB0A-BF1CBD257FB9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>* Keyword "sl" is for measuring the length of the specified text in terms of characters and bytes (UTF-8 encoding).
+
+* Assign a hotkey to apply this functionality to the text currently selected in the active application.</string>
 	<key>uidata</key>
 	<dict>
 		<key>27A1BA95-8EE9-4FFF-AFA3-87175EBA9952</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>8D8F7A4D-06DA-473A-9142-D2E4192EE31A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>B1D7CAA5-A566-412F-BB0A-BF1CBD257FB9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>C6B9B25E-20F3-44E3-856C-747B7319B9BA</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string>https://github.com/mklement0/strlen.awf</string>
 </dict>
