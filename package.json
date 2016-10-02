@@ -2,7 +2,7 @@
   "name": "strlen.awf",
   "description": "An Alfred workflow that counts the number of characters and bytes in a string.",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "os": [
     "darwin"
   ],
@@ -21,6 +21,7 @@
     "postuninstall": "./bin/installAwf -u"
   },
   "keywords": [
+    "macos",
     "osx",
     "awf",
     "alfred",

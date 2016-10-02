@@ -5,7 +5,7 @@
 
 **Contents**
 
-- [strlen.awf: an Alfred 2 workflow for measuring string length](#strlenawf-an-alfred-2-workflow-for-measuring-string-length)
+- [strlen.awf: an Alfred 3 workflow for measuring string length](#strlenawf-an-alfred-3-workflow-for-measuring-string-length)
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Installation from the npm registry](#installation-from-the-npm-registry)
@@ -20,13 +20,13 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# strlen.awf: an Alfred 2 workflow for measuring string length
+# strlen.awf: an Alfred 3 workflow for measuring string length
 
-**strlen.awf** is a simple [Alfred 2](http://www.alfredapp.com) [workflow](http://www.alfredapp.com/workflows) for counting the 
+**strlen.awf** is a simple [Alfred 3](http://www.alfredapp.com) [workflow](http://www.alfredapp.com/workflows) for counting the 
 number of characters and bytes in a string (piece of text):
 
 It comes with a hotkey (global keyboard shortcut) that operates on the
-selected text in the currently active OS X application; alternatively, use
+selected text in the currently active macOS application; alternatively, use
 keyword `sl`.
 
 Both character and byte count (to see the actual storage requirements of
@@ -43,13 +43,13 @@ e.g.:
 
 ## Prerequisites
 
- * OS X
- * [Alfred 2](http://alfredapp.com) with its paid [Power Pack](https://www.alfredapp.com/powerpack/) add-on.
+ * macOS (OS X
+ * [Alfred 3](http://alfredapp.com) with its paid [Power Pack](https://www.alfredapp.com/powerpack/) add-on.
 
 ## Installation from the npm registry
 
  <sup>Note: Even if you don't use Node.js itself: its package manager, `npm`, works across platforms and is easy to install; try  
- [`curl -L http://git.io/n-install | bash`](https://github.com/mklement0/n-install)</sup>
+ [`curl -L https://git.io/n-install | bash`](https://github.com/mklement0/n-install)</sup>
 
 With [Node.js](http://nodejs.org/) installed, install [the package](https://www.npmjs.com/package/strlen.awf) as follows:
 
@@ -58,13 +58,13 @@ With [Node.js](http://nodejs.org/) installed, install [the package](https://www.
 **Note**:
 
 * Whether you need `sudo` depends on how you installed Node.js and whether you've [changed permissions later](https://docs.npmjs.com/getting-started/fixing-npm-permissions); if you get an `EACCES` error, try again with `sudo`.
-* Alfred 2 will prompt you to import the workflow - select a category (optional), and confirm.
+* Alfred 3 will prompt you to import the workflow - select a category (optional), and confirm.
 * After importing, proceed with [customization](#customization) below.
 
 ## Manual installation
 
 * **Click [here](https://github.com/mklement0/strlen.awf/blob/stable/archive/net.same2u.strlen.awf.alfredworkflow?raw=true)** to download the installer.
-* Open the downloaded file: Alfred 2 will prompt you to import the workflow - select a category (optional), and confirm.
+* Open the downloaded file: Alfred 3 will prompt you to import the workflow - select a category (optional), and confirm.
 * After importing, proceed with [customization](#customization) below.
 
 # Customization
@@ -95,7 +95,7 @@ modify the value of the `Keyword:` input field.
 
 # License
 
-Copyright (c) 2015 Michael Klement <mklement0@gmail.com> (http://same2u.net), released under the [MIT license](https://spdx.org/licenses/MIT#licenseText).
+Copyright (c) 2015-2016 Michael Klement <mklement0@gmail.com> (http://same2u.net), released under the [MIT license](https://spdx.org/licenses/MIT#licenseText).
 
 ## Acknowledgements
 
@@ -118,6 +118,10 @@ This project gratefully depends on the following open-source components, accordi
 # Changelog
 
 <!-- NOTE: An entry template for a new version is automatically added each time `make version` is called. Fill in changes afterwards. -->
+
+* **[v0.2.0](https://github.com/mklement0/strlen.awf/compare/v0.1.1...v0.2.0)** (2016-10-02):
+  * [breaking change] Upgraded to support Alfred 3.
+    If you still need Alfred 2 support, use version v0.1.1.
 
 * **[v0.1.1](https://github.com/mklement0/strlen.awf/compare/v0.1.0...v0.1.1)** (2015-11-08):
   * [doc] Wording of placeholder title for keyword `sl` improved. 
